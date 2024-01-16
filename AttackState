@@ -1,0 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+// Remove or comment out if not needed
+// using System.Diagnostics;
+
+public class AttackState : State
+{
+    public override State RunCurrentState()
+    {
+        UnityEngine.Debug.Log("I HAVE ATTACKED"); // Fully qualified
+        return this;
+    }
+}
